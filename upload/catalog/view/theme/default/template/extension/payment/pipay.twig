@@ -1,0 +1,20 @@
+<form action="{{ action }}" method="POST">  
+    <input type="hidden" name="mid" value="{{mid}}"/>
+    <input type="hidden" name="lang" value="{{ lang }}"/>
+    <input type="hidden" name="orderid" value="{{orderid}}"/>
+    <input type="hidden" name="orderDesc" value="{{ orderDesc }}"/>
+    <input type="hidden" name="orderAmount" value="{{orderAmount}}"/>
+    <input type="hidden" name="currency" value="{{ currency }}"/>
+    <input type="hidden" name="sid" value="{{sid}}"/>
+    <input type="hidden" name="did" value="{{did}}"/>
+    <input type="hidden" name="orderDate" value="{{ orderDate }}"/>
+    <input type="hidden" name="payMethod" value="{{ payMethod }}"/>
+    <input type="hidden" name="trType" value="{{ trType }}"/>
+    <input type="hidden" name="cancelTimer" value="{{ cancelTimer }}" />
+    <input type="hidden" name="confirmURL" value="{{ confirmURL }}"/>
+    <input type="hidden" name="cancelURL" value="{{ cancelURL }}"/>
+    <input type="hidden" name="digest" value="{{digest}}"/>
+  <div class="buttons">
+    <div class="pull-right"><input type="submit" value="{{ button_confirm }}" class="btn btn-primary" /></div>
+  </div>
+</form>
